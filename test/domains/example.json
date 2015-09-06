@@ -1,0 +1,4 @@
+{
+    "domainId":1,
+    "regexp": "^(\\w+\\.){0,1}example\\.com$"
+}
