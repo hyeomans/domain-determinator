@@ -1,6 +1,6 @@
 {
   "name": "domain-determinator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Settings per domain given a host",
   "main": "src/index.js",
   "scripts": {
@@ -18,5 +18,9 @@
     "chai-string": "^1.1.2",
     "jshint": "^2.8.0",
     "mocha": "^2.3.0"
-  }
+  },
+  "files": [
+    "src",
+    "README.md"
+  ]
 }
