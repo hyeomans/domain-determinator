@@ -20,24 +20,24 @@ Imagine you have 3 domains, .com, .mx and .co. You will need to define a common 
 ```JSON
 //./config/domains/com.json
 {
-  regexp: "^(\\w+\\.){0,1}hyeomans\\.com$",
-  commonProperty: 1
+  "regexp": "^(\\w+\\.){0,1}hyeomans\\.com$",
+  "commonProperty": 1
 }
 ```
 
 ```JSON
 //./config/domains/mx.json
 {
-  regexp: "^(\\w+\\.){0,1}hyeomans\\.mx",
-  commonProperty: 2
+  "regexp": "^(\\w+\\.){0,1}hyeomans\\.mx",
+  "commonProperty": 2
 }
 ```
 
 ```JSON
 //./config/domains/co.json
 {
-  regexp: "^(\\w+\\.){0,1}hyeomans\\.co",
-  commonProperty: 3
+  "regexp": "^(\\w+\\.){0,1}hyeomans\\.co",
+  "commonProperty": 3
 }
 ```
 
